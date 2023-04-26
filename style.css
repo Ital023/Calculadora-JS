@@ -1,3 +1,41 @@
 body{
-    background: #000;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.estrutura{
+    background-color: black;
+    padding: 30px;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 45px;
+    background-color: burlywood;
+    margin: 0 0 15px 0;
+    padding: 0 5px 0 5px;
+}
+
+/* .botoes{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px;
+} */
+.botoes__grupos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+.botao{
+    background-color: brown;
+    padding: 20px;
+    margin: 1px;
+}
+.botao__0{
+    grid-column: span 2;
 }
