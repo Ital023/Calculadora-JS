@@ -13,9 +13,6 @@ botoes.forEach(botao=>{
         }else{
             display.innerHTML += valor;
         }
-            
-
-        
-
     })
+    document.onkeydown = teclado;
 })
