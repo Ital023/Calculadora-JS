@@ -4,6 +4,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background:linear-gradient(270deg,#0B2447, rgb(31, 5, 53));
+    color: aliceblue;
 }
 
 .estrutura{
@@ -32,7 +34,7 @@ body{
     gap: 5px;
   }
 .botao{
-    background-color: brown;
+    background-color: #19376D;
     padding: 20px;
     margin: 1px;
 }
