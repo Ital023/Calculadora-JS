@@ -10,6 +10,7 @@
     color: aliceblue;
     font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
+    transition: .70s;
 }
 
 .estrutura{
@@ -72,16 +73,21 @@
 }
 .iluminados{
     background-color:#0B2447;
+    transition: .70s;
 }
 .iluminados__red{
     background-color: #a01414;
+    transition: .70s;
 }
 .principal__red{
     background:linear-gradient(270deg,#a01414, rgb(53, 5, 5));
+    transition: .70s;
 }
 .principal__green{
     background:linear-gradient(270deg,#268213, rgb(5, 53, 7));
+    transition: .70s;
 }
 .iluminados__green{
     background-color: #268213;
+    transition: .70s;
 }
