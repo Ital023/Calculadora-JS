@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
 body{
     min-height: 100vh;
     display: flex;
@@ -6,11 +8,14 @@ body{
     flex-direction: column;
     background:linear-gradient(270deg,#0B2447, rgb(31, 5, 53));
     color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
 }
 
 .estrutura{
-    background-color: black;
+    background-color: #000;
     padding: 30px;
+    border-radius: 30px;
 }
 
 .display{
@@ -18,9 +23,11 @@ body{
     align-items: center;
     justify-content: right;
     height: 45px;
-    background-color: burlywood;
-    margin: 0 0 15px 0;
+    background-color: #FFF2CC;
+    margin: 0 0 30px 0;
     padding: 0 5px 0 5px;
+    color: black;
+    margin-bottom: 20px;
 }
 
 /* .botoes{
@@ -37,7 +44,30 @@ body{
     background-color: #19376D;
     padding: 20px;
     margin: 1px;
+    border-radius: 40px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    
+  box-shadow: 2px 2px 0 #aaa;
 }
 .botao__0{
     grid-column: span 2;
+}
+.redes{
+    position: absolute;
+    bottom: 5px;
+}
+.redes__imagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+.redes__titulo{
+    font-size: 24px;
+}
+.imagem{
+    width: 22px;
+
 }
