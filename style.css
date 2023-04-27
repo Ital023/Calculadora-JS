@@ -73,3 +73,15 @@
 .iluminados{
     background-color:#0B2447;
 }
+.iluminados__red{
+    background-color: #a01414;
+}
+.principal__red{
+    background:linear-gradient(270deg,#a01414, rgb(53, 5, 5));
+}
+.principal__green{
+    background:linear-gradient(270deg,#268213, rgb(5, 53, 7));
+}
+.iluminados__green{
+    background-color: #268213;
+}
